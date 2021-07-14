@@ -1,0 +1,40 @@
+{
+  "name": "Google Drive Autoplay",
+  "short_name": "Drive Autoplay",
+  "author": "Miharbi",
+  "description": "A video/music autoplayer for Google Drive!",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "background": {
+  "service_worker": "background.js"
+    },
+    "action": {
+        "default-popup": "./popup.html",
+        "default_icon": {
+          "16": "/images/drive_autoplay16.png",
+          "32": "/images/drive_autoplay32.png",
+          "48": "/images/drive_autoplay48.png",
+          "128": "/images/drive_autoplay128.png"
+        }
+    },
+    "options_page": "options.html",
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["content.js","popup.html"]
+    }],
+  "permissions": [
+    "webNavigation", 
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+    "host_permissions" : [
+      "https://www.drive.google.com/*"
+    ],
+  "icons": {
+    "16": "/images/drive_autoplay16.png",
+    "32": "/images/drive_autoplay32.png",
+    "48": "/images/drive_autoplay48.png",
+    "128": "/images/drive_autoplay128.png"
+    }
+  }
