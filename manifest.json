@@ -1,7 +1,7 @@
 {
   "name": "Google Drive Autoplay",
   "short_name": "Drive Autoplay",
-  "author": "Miharbi",
+  "author": "Oracle",
   "description": "A video/music autoplayer for Google Drive!",
   "version": "0.1.0",
   "manifest_version": 3,
