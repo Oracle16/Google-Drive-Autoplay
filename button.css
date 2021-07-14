@@ -1,0 +1,21 @@
+button {
+    height: 200px;
+    width: 300px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    background-image: url(
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/188px-Flag_of_Pakistan.svg.png');
+    background-size: cover;
+    font-size: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+  }
