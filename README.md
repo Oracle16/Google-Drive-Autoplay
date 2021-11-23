@@ -1,5 +1,6 @@
 # Google Drive Autoplay
-A video and music autoplayer for Google Drive.
+This plugin makes it possible for Google Drive to automatically play music and video files. 
+This repository always contains the latest version, the Chrome and Firefox extension updates may be delayed by submission reviews.
 
 ## Installing
 As a Chrome Extension:
