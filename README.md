@@ -9,5 +9,5 @@ As a Greasemonkey / UserScript:
 This script can be installed into Greasemonkey or other user script plugins by going here: [google-drive-autoplayer.user.js](https://www.tampermonkey.net/)
 
 ## Development
-To generate the user.js for Greasemonkey, > run make js.
-The chrome extension can be built using > make chrome.
+To generate the user.js for Greasemonkey, _run make js_.
+The chrome extension can be built using _make chrome_.
