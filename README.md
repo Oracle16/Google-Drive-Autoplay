@@ -1,4 +1,4 @@
-# Google_Drive_Autoplay
+# Google Drive Autoplay
 A video and music autoplayer for Google Drive
 
 ## Installing
